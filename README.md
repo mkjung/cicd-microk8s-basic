@@ -26,7 +26,7 @@ Here's a summary of the steps. More detail will come in following sections, the 
 
 ```
 #-- HOST --#
-clone https://github.com/canonical-labs/cicd-microk8s-basic.git
+git clone https://github.com/canonical-labs/cicd-microk8s-basic.git
 cd cicd-microk8s-basic
 scripts/mp/create-single-vm.sh
 scripts/mp/ssh-single-vm.sh # --> VM
@@ -39,7 +39,7 @@ sudo ./install-k8s-base.sh
 
 # [OPTIONAL] strongly advise downloading snaps if you plan on doing install-all a lot.
 # Do this before install-all.sh to get the full benefit.
-download-snaps.sh
+./download-snaps.sh
 
 ```
 
